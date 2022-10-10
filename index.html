@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <header class="mt-4 d-flex justify-content-between align-items-center shadow-sm p-3 sticky-top bg-white">
+        <h3 class="mb-0">My Shop</h3>
+        <button type="button" class="btn btn-primary position-relative animate__animated cart-btn">
+            <i class="bi bi-cart cart-btn-icon"></i> Cart
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              <span>0</span>
+          </span>
+        </button>
+      </header>
+      <div class="row my-4 g-3 my-card-row"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
